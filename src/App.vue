@@ -5,36 +5,30 @@
     </header>
     <main>
       <section class="hero">
-        <h2>Welcome to Our Website!</h2>
-        <p>Explore the amazing features we offer.</p>
-        <button @click="toggleModal">Learn More</button>
+        <h2>Welcome to Our Menu!</h2>
+        <p>Find your favorite food on our menu! xoxo</p>
       </section>
       <section class="features">
         <div class="feature">
-          <img src="./assets/feature1.png" alt="Feature 1">
-          <h3>Feature 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./assets/nasgor.jpg" alt="Instagram">
+          <h3>Fried Rice</h3>
+          <p>Nasi goreng adalah hidangan khas Asia Tenggara yang terdiri dari nasi yang dimasak bersama dengan berbagai bahan lainnya seperti daging, seafood, sayuran, telur, dan rempah-rempah. Hidangan ini sering dianggap sebagai salah satu makanan yang paling umum dan populer di kawasan tersebut.</p>
         </div>
         <div class="feature">
-          <img src="./assets/feature2.png" alt="Feature 2">
-          <h3>Feature 2</h3>
-          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="feature">
-          <img src="./assets/feature3.png" alt="Feature 3">
-          <h3>Feature 3</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <img src="./assets/gado.jpg" alt="Tiktok">
+          <h3>Salad with Peanut sauce</h3>
+          <p>Gado-gado adalah salah satu hidangan khas Indonesia yang terkenal dan populer. Hidangan ini terdiri dari campuran beragam sayuran segar yang direbus atau dikukus, disajikan dengan bumbu kacang khas (peanut sauce) dan pelengkap lainnya seperti tahu, tempe, telur rebus, krupuk, Gado-gado sering dianggap sebagai salah satu hidangan salad yang sangat khas dalam masakan Indonesia.</p>
         </div>
       </section>
       <section class="testimonial">
         <blockquote>
-          <p>"This website is amazing! It has everything I need and more."</p>
-          <footer>- Happy Customer</footer>
+
+          <footer>- enjoy your meal - </footer>
         </blockquote>
       </section>
     </main>
     <footer>
-      <p>&copy; 2024 Our Website. Zakia Aulia Putra.</p>
+      <p>&copy; 2024 Our Menu. Septia Heska .</p>
     </footer>
     <div class="modal" v-if="showModal">
       <div class="modal-content">
@@ -50,7 +44,7 @@
 export default {
   data() {
     return {
-      pageTitle: "Welcome to Our Website!",
+      pageTitle: "Heskuyy Cafe!",
       showModal: false,
       isHighlighted: false,
       inputText: "",
@@ -123,7 +117,7 @@ main {
 
 .features {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 40px;
 }
 
@@ -132,12 +126,12 @@ main {
 }
 
 .feature img {
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .feature h3 {
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1 rem;
 }
 
 .testimonial {
